@@ -3,6 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./assets/img/icon_circle.png" type="image/icon type">
+
+        <!--==================== PREVIEWS ====================-->
+        <meta property="og:image" content="https://i.ibb.co/M9khNVs/preview-image.png"/>
+        <meta property="og:title" content="Fullstack Developer"/>
+        <meta property="og:description" content="I manage this site to showcase my work and my high level expirence in web design and development knowledge, producing quality work"/>
+        <meta property="twitter:image" content="https://i.ibb.co/M9khNVs/preview-image.png"/>
+        <meta property="twitter:title" content="Fullstack Developer"/>
+        <meta property="twitter:description" content="I manage this site to showcase my work and my high level expirence in web design and development knowledge, producing quality work"/>
 
         <!--==================== UNICONS ====================-->
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
@@ -44,8 +53,8 @@
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#portfolio" class="nav__link">
-                                <i class="uil uil-scenery nav__icon"></i> Portfolio
+                            <a href="#projects" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i> Projects
                             </a>
                         </li>
                         <li class="nav__item">
@@ -238,6 +247,16 @@
                                     <span class="skills__percentage skills__css"></span>
                                 </div>
                             </div>
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">NextJs</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__nextjs"></span>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -414,23 +433,22 @@
 
             </section>
 
-            <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
-                <h3 class="section__title">Portfolio</h3>
+            <!--==================== PROJECTS ====================-->
+            <section class="portfolio section" id="projects">
+                <h3 class="section__title">Projects</h3>
                 <span class="section__subtitle">Most recent work</span>
 
                 <div class="portfolio__container container swiper-container">
                     <div class="swiper-wrapper">
                         <!--==================== PORTFOLIO 1 ====================-->
                         <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/portfolio1.png" alt="" class="portfolio__img">
+                            <img src="assets/img/portfolio1.png" alt="portfolio3" class="portfolio__img">
 
                             <div class="portfolio__data">
-                                <h3 class="portfolio__title">Video Streaming App</h3>
-                                <p class="portfolio__description">Designed a Prime Video like web app. 
-                                    where you can login and see the list of content available on Amazon Prime video. 
-                                    Has multiple user interactions</p>
-                                <a href="https://bli-prime.web.app/" target="_blank" class="button button--flex button--small portfolio__button">
+                                <h3 class="portfolio__title">Technology Blogs</h3>
+                                <p class="portfolio__description">Whenever i am read a blog and i think that it's good blog 
+                                    and should be share with my friends, I add those blogs here with little excerpt and a thumbnail. This is designed in NextJs to learn searver side rendering.</p>
+                                <a href="https://blogs-m.vercel.app/" target="_blank" class="button button--flex button--small portfolio__button">
                                     Demo
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
@@ -442,10 +460,40 @@
                             <img src="assets/img/portfolio2.png" alt="" class="portfolio__img">
 
                             <div class="portfolio__data">
+                                <h3 class="portfolio__title">Virtual Keyboard</h3>
+                                <p class="portfolio__description">Build a virtual keyboard as a fun project. Requirements were to shuffle the keys every time someone presses a key.</p>
+                                <a href="https://virtual-keyboard-vue.vercel.app/" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 3 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio3.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Video Streaming App</h3>
+                                <p class="portfolio__description">Designed a Prime Video like web app. 
+                                    where you can login and see the list of content available on Amazon Prime video. 
+                                    Has multiple user interactions. This is designed in VueJs</p>
+                                <a href="https://bli-prime.web.app/" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 4 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio4.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
                                 <h3 class="portfolio__title">Private Chat</h3>
                                 <p class="portfolio__description">Tried to implement a slack like team collabration tool 
-                                    where people can chat. Added a helper todo bar to add notes while chatting</p>
-                                <a href="http://slack-clone-416df.web.app/" target="_blank" class="button button--flex button--small portfolio__button">
+                                    where people can chat. Added a helper todo bar to add notes while chatting. This is designed in ReactJs</p>
+                                <a href="https://slack-clone-416df.web.app/" target="_blank" class="button button--flex button--small portfolio__button">
                                     Demo
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
@@ -660,7 +708,7 @@
                         </li>
 
                         <li>
-                            <a href="#portfolio" class="footer__link">Portfolio</a>
+                            <a href="#projects" class="footer__link">Projects</a>
                         </li>
 
                         <li>

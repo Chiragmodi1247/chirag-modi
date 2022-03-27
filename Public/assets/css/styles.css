@@ -477,6 +477,9 @@ img {
 .skills__react {
   width: 85%;
 }
+.skills__nextjs {
+  width: 60%;
+}
 .skills__php {
   width: 80%;
 }
