@@ -1,0 +1,56 @@
+{
+  "services": [
+    {
+      "title": "Backend Development",
+      "icon": "uil-server-network",
+      "modal": {
+        "title": "Backend Development",
+        "items": [
+          "Design and develop scalable, event-driven systems using Java and Spring Boot.",
+          "Build real-time data processing solutions with Apache Kafka integration.",
+          "Develop automated systems for anomaly detection and root cause identification.",
+          "Create RESTful APIs and microservices architecture for enterprise applications."
+        ]
+      }
+    },
+    {
+      "title": "System Architecture",
+      "icon": "uil-web-grid",
+      "modal": {
+        "title": "System Architecture",
+        "items": [
+          "Design microservices and event-driven architectures for scalable systems.",
+          "Optimize infrastructure costs and improve operational efficiency.",
+          "Implement system design patterns for high-performance applications.",
+          "Lead architecture decisions for cross-functional initiatives."
+        ]
+      }
+    },
+    {
+      "title": "Automation & DevOps",
+      "icon": "uil-cog",
+      "modal": {
+        "title": "Automation & DevOps",
+        "items": [
+          "Automate recurring manual operations to improve developer efficiency.",
+          "Build custom workflow automation solutions saving significant costs.",
+          "Implement CI/CD pipelines for streamlined deployments.",
+          "Optimize system performance and reduce operational overhead."
+        ]
+      }
+    },
+    {
+      "title": "Project Leadership",
+      "icon": "uil-users-alt",
+      "modal": {
+        "title": "Project Leadership",
+        "items": [
+          "Lead development teams and drive end-to-end project delivery.",
+          "Act as project manager and lead developer for critical initiatives.",
+          "Coordinate cross-functional teams and deliver scalable solutions.",
+          "Mentor developers and establish best practices for code quality."
+        ]
+      }
+    }
+  ]
+}

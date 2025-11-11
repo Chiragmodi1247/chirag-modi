@@ -1,0 +1,16 @@
+{
+  "name": "Chirag Modi",
+  "title": "Software Engineer II – Backend",
+  "description": "Backend-focused Software Engineer with experience designing scalable, event-driven systems using Java and Spring Boot. Proven ability to drive cross-functional initiatives, optimize infrastructure costs, and lead development teams.",
+  "location": "Bengaluru, India",
+  "phone": "8320360696",
+  "email": "mchirag1247@gmail.com",
+  "socialLinks": {
+    "linkedin": "https://www.linkedin.com/in/chirag-modi-074/",
+    "github": "https://github.com/Chiragmodi1247",
+    "portfolio": "https://chiragmodi.vercel.app/",
+    "instagram": "https://www.instagram.com/_chi.mo_/",
+    "twitter": "https://twitter.com/mchirag1247"
+  },
+  "cvPath": "assets/pdf/Chirag_Modi_CV.pdf"
+}

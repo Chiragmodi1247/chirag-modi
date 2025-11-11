@@ -22,6 +22,24 @@
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
+        <!--==================== DEFAULT DARK MODE ====================-->
+        <script>
+          // Set dark mode immediately to prevent flash (default to dark if no preference saved)
+          (function() {
+            const selectedTheme = localStorage.getItem('selected-theme');
+            // Default to dark mode if no preference is saved
+            if (selectedTheme === null) {
+              document.documentElement.classList.add('dark-theme');
+              document.body.classList.add('dark-theme');
+            } else if (selectedTheme === 'dark') {
+              // Apply dark mode if it was previously selected
+              document.documentElement.classList.add('dark-theme');
+              document.body.classList.add('dark-theme');
+            }
+            // If selectedTheme is 'light', don't add dark-theme class (defaults to light)
+          })();
+        </script>
+
         <title>Chirag Modi</title>
     </head>
     <body>
@@ -267,7 +285,7 @@
 
                             <div>
                                 <h1 class="skills__title">Backend developer</h1>
-                                <span class="skill__subtitle">For almost 2 years</span>
+                                <span class="skill__subtitle">More than 5 years</span>
                             </div>
 
                             <i class="uil uil-angle-down skills__arrow"></i>
@@ -277,7 +295,7 @@
                             <div class="skills__data">
                                 <div class="skills__title">
                                     <h3 class="skills__name">Java</h3>
-                                    <span class="skills__number">85%</span>
+                                    <span class="skills__number">90%</span>
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__percentage skills__java"></span>
@@ -287,7 +305,7 @@
                             <div class="skills__data">
                                 <div class="skills__title">
                                     <h3 class="skills__name">Spring Boot</h3>
-                                    <span class="skills__number">80%</span>
+                                    <span class="skills__number">85%</span>
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__percentage skills__spring"></span>
@@ -296,11 +314,57 @@
 
                             <div class="skills__data">
                                 <div class="skills__title">
-                                    <h3 class="skills__name">Spark</h3>
-                                    <span class="skills__number">70%</span>
+                                    <h3 class="skills__name">Apache Kafka</h3>
+                                    <span class="skills__number">85%</span>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__node"></span>
+                                    <span class="skills__percentage skills__kafka"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== SKILL 3 ====================-->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-cog skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Architecture & DevOps</h1>
+                                <span class="skill__subtitle">More than 3 years</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Microservices</h3>
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__microservices"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Event-Driven Systems</h3>
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__eventdriven"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">System Design</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__systemdesign"></span>
                                 </div>
                             </div>
                         </div>
@@ -317,8 +381,8 @@
                     <!--==================== SERVICES 1 ====================-->
                     <div class="services__content">
                         <div>
-                            <i class="uil uil-arrow services__icon"></i>
-                            <h3 class="services__title">Frontend <br> Developer</h3>
+                            <i class="uil uil-server-network services__icon"></i>
+                            <h3 class="services__title">Backend <br> Development</h3>
                         </div>
 
                         <span class="button button--flex button--small button--link services__button">
@@ -328,28 +392,28 @@
 
                         <div class="services__modal">
                             <div class="services__modal-content">
-                                <h4 class="services__modal-title">Frontend <br> Developer</h4>
+                                <h4 class="services__modal-title">Backend <br> Development</h4>
                                 <i class="uil uil-times services__modal-close"></i>
 
                                 <ul class="services__modal-services grid">
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>I develop the user interface.</p>
+                                        <p>Design and develop scalable, event-driven systems using Java and Spring Boot.</p>
                                     </li>
 
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Web page development.</p>
+                                        <p>Build real-time data processing solutions with Apache Kafka integration.</p>
                                     </li>
 
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>I create UX element interections.</p>
+                                        <p>Develop automated systems for anomaly detection and root cause identification.</p>
                                     </li>
 
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>I position your company brand.</p>
+                                        <p>Create RESTful APIs and microservices architecture for enterprise applications.</p>
                                     </li>
                                 </ul>
                             </div>
@@ -360,7 +424,7 @@
                     <div class="services__content">
                         <div>
                             <i class="uil uil-web-grid services__icon"></i>
-                            <h3 class="services__title">Backend <br> Developer</h3>
+                            <h3 class="services__title">System <br> Architecture</h3>
                         </div>
 
                         <span class="button button--flex button--small button--link services__button">
@@ -370,23 +434,28 @@
 
                         <div class="services__modal">
                             <div class="services__modal-content">
-                                <h4 class="services__modal-title">Backend <br> Developer</h4>
+                                <h4 class="services__modal-title">System <br> Architecture</h4>
                                 <i class="uil uil-times services__modal-close"></i>
 
                                 <ul class="services__modal-services grid">
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>I work on spinrg boot applications.</p>
+                                        <p>Design microservices and event-driven architectures for scalable systems.</p>
                                     </li>
 
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>I have worked on Kafka integration.</p>
+                                        <p>Optimize infrastructure costs and improve operational efficiency.</p>
                                     </li>
 
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>I have had hands on expirence in solr.</p>
+                                        <p>Implement system design patterns for high-performance applications.</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Lead architecture decisions for cross-functional initiatives.</p>
                                     </li>
                                 </ul>
                             </div>
@@ -396,8 +465,8 @@
                     <!--==================== SERVICES 3 ====================-->
                     <div class="services__content">
                         <div>
-                            <i class="uil uil-pen services__icon"></i>
-                            <h3 class="services__title">Software <br> Engineer</h3>
+                            <i class="uil uil-cog services__icon"></i>
+                            <h3 class="services__title">Automation <br> & DevOps</h3>
                         </div>
 
                         <span class="button button--flex button--small button--link services__button">
@@ -407,23 +476,60 @@
 
                         <div class="services__modal">
                             <div class="services__modal-content">
-                                <h4 class="services__modal-title">Software <br> Engineer</h4>
+                                <h4 class="services__modal-title">Automation <br> & DevOps</h4>
                                 <i class="uil uil-times services__modal-close"></i>
 
                                 <ul class="services__modal-services grid">
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>I work as a software engineer as a ecommerce company.</p>
+                                        <p>Automate recurring manual operations to improve developer efficiency.</p>
                                     </li>
 
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>I have expirence in setting up services.</p>
+                                        <p>Build custom workflow automation solutions saving significant costs.</p>
                                     </li>
 
                                     <li class="services__modal-service">
                                         <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>I had build a CMS center from scratch.</p>
+                                        <p>Implement CI/CD pipelines for streamlined deployments.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== SERVICES 4 ====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-users-alt services__icon"></i>
+                            <h3 class="services__title">Project <br> Leadership</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button">
+                            View More
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Project <br> Leadership</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Lead development teams and drive end-to-end project delivery.</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Act as project manager and lead developer for critical initiatives.</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Coordinate cross-functional teams and deliver scalable solutions.</p>
                                     </li>
                                 </ul>
                             </div>
@@ -744,6 +850,9 @@
         
         <!--===== SCROLL REVEAL =====-->
         <script src="https://unpkg.com/scrollreveal"></script>
+        
+        <!--==================== DATA LOADER ====================-->
+        <script src="assets/js/data-loader.js"></script>
         
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>

@@ -1,0 +1,17 @@
+{
+  "description": "Backend-focused Software Engineer with experience designing scalable, event-driven systems using Java and Spring Boot. Proven ability to drive cross-functional initiatives, optimize infrastructure costs, and lead development teams. Passionate about system reliability, automation, and data-driven solutions that improve operational efficiency and product quality.",
+  "stats": {
+    "experience": {
+      "value": 5,
+      "label": "Years experience"
+    },
+    "projects": {
+      "value": 2,
+      "label": "Completed projects"
+    },
+    "companies": {
+      "value": 2,
+      "label": "Companies worked"
+    }
+  }
+}

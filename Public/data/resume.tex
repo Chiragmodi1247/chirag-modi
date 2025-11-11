@@ -1,0 +1,109 @@
+%-------------------------
+% Chirag Modi - Resume (Light Blue Accent Version)
+%-------------------------
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[margin=0.7in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fontawesome5}
+\usepackage{setspace}
+\usepackage{xcolor}
+
+%-------------------- COLORS --------------------
+\definecolor{lightblue}{HTML}{007ACC}
+
+\setstretch{1.1}
+\pagenumbering{gobble}
+
+%-------------------- SECTION STYLING --------------------
+\titleformat{\section}
+  {\large\bfseries\scshape\color{lightblue}}{}{0em}{}[\color{lightblue}\titlerule]
+\titleformat{\subsection}{\bfseries\color{lightblue}}{}{0em}{}
+
+%-------------------- LISTS --------------------
+\newcommand{\resumeItem}[1]{\item\small{#1\vspace{-2pt}}}
+\newcommand{\resumeListStart}{\begin{itemize}[leftmargin=0.15in]}
+\newcommand{\resumeListEnd}{\end{itemize}\vspace{-4pt}}
+
+\begin{document}
+
+%-------------------- HEADER --------------------
+\begin{center}
+    {\LARGE \textbf{\color{lightblue}Chirag Modi}} \\[4pt]
+    \textit{Software Engineer II – Backend} \\[6pt]
+    \faIcon{linkedin} \href{https://www.linkedin.com/in/chirag-modi-074/}{linkedin.com/in/chirag-modi-074} \,|\, 
+    \faIcon{envelope} \href{mailto:mchirag1247@gmail.com}{mchirag1247@gmail.com} \,|\, 
+    \faIcon{phone} \href{tel:8320360696}{+91 8320360696}
+\end{center}
+
+%-------------------- PROFILE SUMMARY --------------------
+\section*{Profile Summary}
+Backend-focused Software Engineer with experience designing scalable, event-driven systems using Java and Spring Boot. Proven ability to drive cross-functional initiatives, optimize infrastructure costs, and lead development teams. Passionate about system reliability, automation, and data-driven solutions that improve operational efficiency and product quality.
+
+%-------------------- EXPERIENCE --------------------
+\section*{Experience}
+
+\noindent\textbf{\textcolor{lightblue}{CommerceIQ}} \hfill \textit{Bengaluru, India} \\[-2pt]
+{\small\itshape Software Engineer II} \hfill {\small Oct 2024 – Present}
+
+\resumeListStart
+\resumeItem{\textbf{Self-Serve Tool \& Event-Driven Systems:} Led the design and rollout of a self-serve platform integrated with \textbf{Apache Kafka} for real-time data processing. Reduced on-call load by \textbf{70\%} and cut ticket volume by two-thirds across teams.}
+\resumeItem{\textbf{In-house BI Platform (Cost Optimization Initiative):} Acted as both project manager and lead developer, driving the full lifecycle of an internal BI platform that replaced Looker—saving \textbf{\$20K/month} (\textbf{11\%} of GCP cost). Managed two developers, coordinated cross-functional teams, and delivered the final rollout and training.}
+\resumeItem{\textbf{Ops Automation:} Automated recurring manual operations, improving developer efficiency and reducing deployment overhead.}
+\resumeItem{\textbf{Jira Workflow Automation:} Built custom Jira automation rules, removing dependency on Jira Enterprise features and saving approximately \textbf{\$6K per month} across 550+ users.}
+\resumeItem{\textbf{Cross-Team Enablement:} Delivered modular, reusable systems adopted across multiple internal teams, improving collaboration and reducing onboarding overhead.}
+\resumeListEnd
+
+\vspace{3pt}
+\textit{Software Engineer} \hfill May 2022 – Sept 2024
+\resumeListStart
+\resumeItem{\textbf{Anomaly Detection \& Root Cause Identification:} Developed an automated Java-based system to detect client visibility drops across retailers by running analytical queries and flagging issues below defined thresholds. Identified root causes and generated actionable reports, reducing manual debugging by \textbf{75\%} and contributing to onboarding of new clients.}
+\resumeItem{\textbf{Multi-Retailer Dashboards:} Enabled dynamic configuration for multiple retailers without UI redeployment, simplifying onboarding and accelerating market expansion.}
+\resumeItem{\textbf{Collaboration \& Delivery:} Led six end-to-end projects, collaborating across teams to deliver maintainable, scalable systems improving product quality and customer satisfaction.}
+\resumeListEnd
+
+\vspace{4pt}
+\noindent\textbf{\textcolor{lightblue}{Quinbay Technologies}} \hfill \textit{Bengaluru, India} \\[-2pt]
+{\small\itshape Software Engineer} \hfill {\small Jan 2020 – May 2022}
+
+\resumeListStart
+\resumeItem{\textbf{Performance Optimization:} Improved site loading time from 11s to 6s via lazy loading, memoization, and static rendering, enhancing web performance.}
+\resumeItem{\textbf{Testing Excellence:} Migrated testing framework from Chai+Mocha to Jest, reducing test runtime by \textbf{40\%} and improving reliability.}
+\resumeItem{\textbf{CMS Development Leadership:} Led a 4-member team to build a new CMS for business and tech users, introducing \textbf{Vue3} to the organization successfully.}
+\resumeItem{\textbf{Best Practices \& Recognition:} Maintained high-quality, test-driven code; received the SPOT Award twice for outstanding delivery and initiative.}
+\resumeListEnd
+
+%-------------------- PROJECTS --------------------
+\section*{Projects}
+
+\noindent\textbf{\textcolor{lightblue}{Blogs Site}} \hfill \textit{Feb 2022} \\
+\resumeListStart
+\resumeItem{Built a personal blog platform to explore \textbf{Next.js} fundamentals. Implemented featured and all-post sections to highlight trending articles.}
+\resumeItem{Tech Stack: \textbf{ReactJS, NextJS}}
+\resumeItem{Link: \href{https://blogs-m.vercel.app/}{\underline{blogs-m.vercel.app}}}
+\resumeListEnd
+
+\vspace{4pt}
+
+\noindent\textbf{\textcolor{lightblue}{Portfolio Website}} \hfill \textit{Aug 2021} \\
+\resumeListStart
+\resumeItem{Created a personal portfolio showcasing skills, testimonials, and a downloadable resume to highlight professional work and achievements.}
+\resumeItem{Tech Stack: \textbf{HTML, CSS, JavaScript}}
+\resumeItem{Link: \href{https://chiragmodi.vercel.app/}{\underline{chiragmodi.vercel.app}}}
+\resumeListEnd
+
+%-------------------- EDUCATION --------------------
+\section*{Education}
+\textbf{\color{lightblue}Dhirubhai Ambani Institute of Information and Communication Technology (DA-IICT)} \hfill Gandhinagar, India \\
+\textit{Bachelor of Technology in Information and Communication Technology} \hfill Aug 2016 – May 2020
+
+%-------------------- TECHNICAL SKILLS --------------------
+\section*{Technical Skills}
+\textbf{Languages:} Java, SQL, Python (Intermediate), C, C++ \\
+\textbf{Frameworks \& Libraries:} Spring Boot, NodeJS, Jest \\
+\textbf{Architecture \& Concepts:} Microservices, Event-Driven Systems, RESTful APIs, CI/CD, Modular Design, System Design \\
+\textbf{Tools \& Technologies:} Apache Kafka, Apache Spark, Docker, Git, Google Cloud Platform (GCP), NPM, Yarn, VS Code, IntelliJ
+
+\end{document}

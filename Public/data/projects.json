@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "title": "Blogs Site",
+      "description": "Built a personal blog platform to explore Next.js fundamentals. Implemented featured and all-post sections to highlight trending articles. Tech Stack: ReactJS, NextJS",
+      "image": "assets/img/portfolio1.png",
+      "link": "https://blogs-m.vercel.app/"
+    },
+    {
+      "title": "Portfolio Website",
+      "description": "Created a personal portfolio showcasing skills, testimonials, and a downloadable resume to highlight professional work and achievements. Tech Stack: HTML, CSS, JavaScript",
+      "image": "assets/img/portfolio2.png",
+      "link": "https://chiragmodi.vercel.app/"
+    }
+  ]
+}

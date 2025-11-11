@@ -1,0 +1,104 @@
+{
+  "backend": {
+    "title": "Backend Developer",
+    "experience": "More than 5 years",
+    "skills": [
+      {
+        "name": "Java",
+        "percentage": 90
+      },
+      {
+        "name": "Spring Boot",
+        "percentage": 85
+      },
+      {
+        "name": "Apache Kafka",
+        "percentage": 85
+      },
+      {
+        "name": "SQL",
+        "percentage": 80
+      },
+      {
+        "name": "Apache Spark",
+        "percentage": 75
+      },
+      {
+        "name": "NodeJS",
+        "percentage": 70
+      },
+      {
+        "name": "Python",
+        "percentage": 65
+      }
+    ]
+  },
+  "frontend": {
+    "title": "Frontend Developer",
+    "experience": "More than 4 years",
+    "skills": [
+      {
+        "name": "JavaScript",
+        "percentage": 85
+      },
+      {
+        "name": "React",
+        "percentage": 80
+      },
+      {
+        "name": "NextJS",
+        "percentage": 75
+      },
+      {
+        "name": "Vue3",
+        "percentage": 75
+      },
+      {
+        "name": "HTML",
+        "percentage": 80
+      },
+      {
+        "name": "CSS",
+        "percentage": 75
+      },
+      {
+        "name": "Jest",
+        "percentage": 80
+      }
+    ]
+  },
+  "architecture": {
+    "title": "Architecture & DevOps",
+    "experience": "More than 3 years",
+    "skills": [
+      {
+        "name": "Microservices",
+        "percentage": 85
+      },
+      {
+        "name": "Event-Driven Systems",
+        "percentage": 85
+      },
+      {
+        "name": "System Design",
+        "percentage": 80
+      },
+      {
+        "name": "RESTful APIs",
+        "percentage": 85
+      },
+      {
+        "name": "CI/CD",
+        "percentage": 75
+      },
+      {
+        "name": "Docker",
+        "percentage": 75
+      },
+      {
+        "name": "GCP",
+        "percentage": 70
+      }
+    ]
+  }
+}
