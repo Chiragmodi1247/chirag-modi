@@ -1,0 +1,11 @@
+node_modules
+.git
+.DS_Store
+*.md
+!README.md
+unused.txt
+RESTRUCTURE_SUMMARY.md
+RESUME_UPDATE_GUIDE.md
+UPDATE_INSTRUCTIONS.md
+VERCEL_DEPLOYMENT.md
+

@@ -1,0 +1,9 @@
+{
+  "name": "chirag-modi-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website",
+  "engines": {
+    "node": "18.x"
+  }
+}
+
